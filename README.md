@@ -1,47 +1,30 @@
-﻿# D5: [STM32F030](https://github.com/OS-Q/D5) 
+﻿# [1C300B](https://doc.soc.xin/1C300B)
 
-[![sites](OS-Q/OS-Q.png)](http://www.OS-Q.com)
+* [loongson](https://www.loongson.cn/): [LoongArch](https://github.com/SoCXin/LoongArch)
+* [L4R4](https://github.com/SoCXin/Level): 240 GHz 
 
-基于STM32F030单片机的系统工程
+## [简介](https://github.com/SoCXin/1C300B)
 
-#### 归属控制平台：[W1](https://github.com/OS-Q/W1)
+[1C300B](https://www.loongson.cn/product/show?id=6) 采用 0.13um CMOS 工艺，是基于 GS232 处理器核的高性价比单芯片系统，可应用于指纹生物识别、物联传感等领域。
 
-#### 关于系统架构：[OS-Q](https://github.com/OS-Q/OS-Q)
+[![sites](docs/1C300B.png)](https://www.loongson.cn/product/show?id=6)
 
----
+### 关键参数
 
-## [设备描述](https://github.com/OS-Q/D5/wiki) 
-
-STM32F030单片机基于M0内核
-
-### [共用资源](https://github.com/OS-Q/D5/wiki/src) 
-
-#### software
-
-#### hardware
+* 240MHz  GS232 单核心（兼容MIPS32）
+* 16KB 数据 cache 和 16KB 指令 cache
+* SDRAM 接口，工作频率 33~133MHz
 
 
----
 
-边缘设备命名规则：体系 Q[1,4] > 节点 M[1,12] > 平台 W[1,52] > 设备 D[1,365]。
+### [资源收录](https://github.com/SoCXin)
 
-## [同级设备](https://github.com/OS-Q/D5/wiki/index)
+* [参考资源](src/)
+* [参考文档](docs/)
+* [参考工程](project/)
 
-#### D2:[感知设备](https://github.com/OS-Q/D2)
+### [选型建议](https://github.com/SoCXin/1C300B)
 
-#### D3:[显示设备](https://github.com/OS-Q/D3)
+[1C300B](https://github.com/SoCXin/1C300B)
 
-#### D4:[电机设备](https://github.com/OS-Q/D4)
-
-#### -> D5:[控制设备](https://github.com/OS-Q/D5)
-
-#### D6:[无线设备](https://github.com/OS-Q/D6)
-
-#### D7:[红外设备](https://github.com/OS-Q/D7)
-
-
----
-
-###  [Q redefined the scope of Operation System](http://www.OS-Q.com)
-###  qitas@qitas.cn
-### 2018-11-30
+### [www.SoC.xin](http://www.SoC.Xin)

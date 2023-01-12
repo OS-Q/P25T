@@ -1,0 +1,35 @@
+{
+    "type":"MCU",
+    "name":"1C300B",
+    "title": "loongson 1C300B MCU",
+    "description":"loongson MCU",
+    "Core": {
+        "CoreNum": 2,
+        "Core":"LoongArch",
+        "Fmax":1000,
+        "DMIPS": 4000,
+        "CoreMark": 8000
+    },
+    "manufacturer": {
+        "vendor":"loongson",
+        "homepage":"https://www.loongson.cn"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/1C300B.git"
+    },
+    "version":"1.0.0",
+    "series":["1C300B"],
+    "package":["QFP100","QFP176"],
+    "peripheral": ["USB","ETH","ISP","SDIO","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "LoongArch",
+        "loongson",
+        "USB","ETH","ISP","ADC","I2C","RTC","SPI","UART",
+        "3.6V","1.8V"
+    ]
+}
